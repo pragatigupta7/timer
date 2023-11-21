@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <br>
+            <p>TIMER</p>
+        </div>
+        <div id="result">
+            <span id="hour">00:</span>
+            <span id="minute">00:</span>
+            <span id="seconds">00</span>
+        </div>
+        <div class="btns">
+            <button onclick="object.start()">Start</button>
+            <button onclick="object.stop()"id="playButton">Stop</button>
+            <audio id="music" src="WhatsApp Audio 2023-11-21 at 20.08.50_4640b83e.dat.unknown"></audio>
+            <button onclick="object.reset()">Reset</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
